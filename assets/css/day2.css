@@ -1,0 +1,21 @@
+.parent{
+    width: 600px;
+    height: 500px;
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    border: 3px solid black;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 50%;
+}
+

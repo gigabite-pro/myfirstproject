@@ -1,3 +1,8 @@
+/* @font-face {
+    font-family: 'AirbnbCerealMedium';
+    src: URL('../fonts/AirbnbCerealMedium.ttf') format('truetype');
+}
+
 .parent{
     width: 600px;
     height: 500px;
@@ -19,3 +24,34 @@ div{
     border-radius: 50%;
 }
 
+h1{
+    font-family: 'AirbnbCerealMedium';
+}
+ */
+
+ body{
+     margin: 0;
+     padding: 0;
+ }
+
+ nav{
+     background-color: black;
+     height: 4rem;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ nav ul{
+     margin-right: 7rem;
+ }
+
+ nav ul li{
+     display: inline;
+     padding: 7px;
+ }
+
+ nav ul a{
+     color: white;
+     text-decoration: none;
+     font-family: cursive;
+ }
